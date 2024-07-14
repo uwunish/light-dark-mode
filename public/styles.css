@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.app-container {
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	transition: all 0.5s;
+}
+
+.dark-bg {
+	background-color: #000;
+}
+
+.light-bg {
+	background-color: #fff;
+}
+
+.heading {
+	font-weight: normal;
+}
+
+.dark-heading {
+	color: #000;
+}
+
+.light-heading {
+	color: #fff;
+}
+
+.theme-change-btn {
+	padding: 10px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.dark-btn {
+	background-color: #000;
+	color: #fff;
+}
+
+.light-btn {
+	background-color: #fff;
+	color: #000;
+}
